@@ -10,7 +10,7 @@ import {
   CLEAR_USERS,
 } from "../types";
 
-const GihubState = (props) => {
+const GithubState = (props) => {
   const initialState = {
     users: [],
     user: {},
@@ -83,4 +83,4 @@ const GihubState = (props) => {
   );
 };
 
-export default GihubState;
+export default GithubState;
